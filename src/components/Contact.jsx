@@ -64,8 +64,18 @@ const Contact = () => {
       );
   };
 
+  const downloadClick = () => {
+    const link = document.createElement('a');
+    link.href = "/src/assets/Varun_Narayan_CV.pdf";
+    link.download = 'Varun_Narayan_CV.pdf';
+
+    // Trigger the download by programmatically clicking the link
+    link.click();
+  }
+
   return (
     <div
+      style={{height: '20em'}}
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
       <motion.div
@@ -75,7 +85,7 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Don't be Shy! Hit me up 👇</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
-        <button>Download Resume</button>
+        <button className="flex w-full  justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" id="downloadButton" style={{padding: '30px', marginTop:'40px', fontSize:'20px'}} onClick={downloadClick}>Download Resume</button>
       </motion.div>
 
       <motion.div
