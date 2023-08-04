@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-
+import Varun_Narayan from "../assets/Varun_Narayan_CV.pdf"
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
@@ -66,7 +66,7 @@ const Contact = () => {
 
   const downloadClick = () => {
     const link = document.createElement('a');
-    link.href = "/api/download?file=Varun_Narayan_CV.pdf";
+    link.href = {Varun_Narayan};
     link.download = 'Varun_Narayan_CV.pdf';
 
     // Trigger the download by programmatically clicking the link
