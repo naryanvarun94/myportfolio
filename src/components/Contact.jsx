@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-import Varun_Narayan from "../assets/Varun_Narayan_CV.pdf"
+import Varun_Narayan from "../assets/Varun_Narayan_CV-69f958de.pdf"
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
