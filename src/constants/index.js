@@ -17,7 +17,6 @@ import {
     docker,
     shopify,
     carrent,
-    foodiehomepage,
     jobit,
     tripguide,
     threejs,
@@ -203,8 +202,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: foodiehomepage,
-      source_code_link: "https://github.com/naryanvarun94/fooddeliveryapp",
+      image: carrent,
+      source_code_link: "https://github.com/",
     },
     {
       name: "Job IT",
