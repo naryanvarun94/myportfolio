@@ -19,7 +19,7 @@ const ServiceCard = ({title, index, icon }) => {
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[180px] flex justify-evenly items-center flex-col'
       >
         <img
           src={icon}
@@ -47,10 +47,7 @@ const About = () => {
       variants={fadeIn("", "", 0.1, 1)}
       className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled frontend developer with experience in JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        A results-oriented Frontend Developer with 4+ years of experience, specializing in UI design, web development, single-page applications, and JavaScript. Proficient in quality assurance testing for web applications, experienced with containerization and orchestration tools like Docker and Kubernetes, and actively involved in the React community.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

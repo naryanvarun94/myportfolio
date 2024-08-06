@@ -18,6 +18,7 @@ import {
     shopify,
     carrent,
     jobit,
+    siliconindia,
     tripguide,
     threejs,
   } from "../assets";
@@ -115,7 +116,7 @@ import {
   
   const experiences = [
     { 
-      title: "Software Engineer",
+      title: "Senior Software Engineer",
       company_name: "I-exceed Technology Solutions",
       icon: newlogo,
       iconBg: "#383E56",
@@ -128,7 +129,7 @@ import {
       ],
     },
     {
-      title: "React Developer",
+      title: "Software Engineer",
       company_name: "IS Infotech",
       // icon: tesla,
       iconBg: "#E6DEDD",
@@ -143,7 +144,7 @@ import {
     {
       title: "Research Analyst",
       company_name: "Siliconmedia Technologies",
-      // icon: shopify,
+      icon: siliconindia,
       iconBg: "#383E56",
       date: "Mar 2017 - Nov 2020",
       points: [
