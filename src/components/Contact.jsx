@@ -65,7 +65,7 @@ const Contact = () => {
 
   const downloadClick = () => {
     const link = document.createElement('a');
-    link.href ="/Varun_Narayan_CV.pdf";
+    link.href ="/VarunNJ_SSE_ReactDev.pdf";
     link.download = 'Varun_Narayan_CV.pdf';
 
     // Trigger the download by programmatically clicking the link
