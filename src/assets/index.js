@@ -29,7 +29,7 @@ import tesla from "./company/tesla.png";
 import foodiehomepage from "./foodiehomepage.png"
 
 import carrent from "./carrent.png";
-import healthypetvet from "./healthypetvet.png"
+import healthypetvet from "../assets/healthypetvet.PNG"
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
