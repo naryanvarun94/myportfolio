@@ -26,8 +26,10 @@ import shopify from "./company/shopify.png";
 import siliconindia from "./company/siliconindia.jpg"
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import foodiehomepage from "./foodiehomepage.png"
 
 import carrent from "./carrent.png";
+import healthypetvet from "./healthypetvet.png"
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -42,6 +44,7 @@ export {
   close,
   css,
   docker,
+  foodiehomepage,
   figma,
   git,
   html,
@@ -60,5 +63,6 @@ export {
   tesla,
   carrent,
   jobit,
+  healthypetvet,
   tripguide,
 };

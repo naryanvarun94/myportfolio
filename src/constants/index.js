@@ -203,7 +203,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: healthypetvet,
       source_code_link: "https://github.com/",
     },
     {
@@ -224,7 +224,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: foodiehomepage,
       source_code_link: "https://github.com/",
     },
     {
