@@ -13,6 +13,7 @@ import {
     nodejs,
     mongodb,
     healthypetvet,
+    foodiehomepage,
     git,
     figma,
     docker,
