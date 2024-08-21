@@ -12,6 +12,7 @@ import {
     tailwind,
     nodejs,
     mongodb,
+    healthypetvet,
     git,
     figma,
     docker,
